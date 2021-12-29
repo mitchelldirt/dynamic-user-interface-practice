@@ -1,0 +1,26 @@
+nav {
+    width: 300px;
+ display: flex;   
+}
+
+
+
+.drop-menu {
+    visibility: hidden;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+width: 25%;
+text-align: center;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: gray;
+}
