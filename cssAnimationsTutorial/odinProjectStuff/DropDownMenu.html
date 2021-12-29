@@ -5,48 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drop Down Menu</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ddm.css">
 </head>
 <body>
     <nav>
         <ul>
-            <li>Trees
-                <ul class="drop-menu drop-style">
-                    <li>Oak</li>
-                    <li>Cedar</li>
-                    <li>Cypress</li>
-                    <li>Pine</li>
-                    <li>Willow</li>
+            <li class="sub-menu-parent">
+                <a href="#">Trees</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Oak</a></li>
+                    <li><a href="#">Cedar</a></li>
+                    <li><a href="#">Cypress</a></li>
+                    <li><a href="#">Pine</a></li>
+                    <li><a href="#">Willow</a></li>
                 </ul>
             </li>
 
-            <li>Bugs
-                <ul class="drop-menu drop-style">
-                    <li>Cockroach</li>
-                    <li>Spider</li>
-                    <li>Ladybug</li>
-                    <li>Dung Beetle</li>
-                    <li>Centipede</li>
+            <li class="sub-menu-parent">
+                <a href="#">Bugs</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Cockroach</a></li>
+                    <li><a href="#">Spider</a></li>
+                    <li><a href="#">Ladybug</a></li>
+                    <li><a href="#">Dung Beetle</a></li>
+                    <li><a href="#">Centipede</a></li>
                 </ul>
             </li>
 
-            <li>Biomes
-                <ul class="drop-menu drop-style">
-                    <li>Forest</li>
-                    <li>Mountains</li>
-                    <li>Beach</li>
-                    <li>Tundra</li>
-                    <li>Jungle</li>
+            <li class="sub-menu-parent">
+                <a href="#">Biomes</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Forest</a></li>
+                    <li><a href="#">Mountains</a></li>
+                    <li><a href="#">Beach</a></li>
+                    <li><a href="#">Tundra</a></li>
+                    <li><a href="#">Jungle</a></li>
                 </ul>
             </li>
 
-            <li>Cities
-                <ul class="drop-menu drop-style">
-                    <li>Seattle</li>
-                    <li>Portland</li>
-                    <li>Minneapolis</li>
-                    <li>Asheville</li>
-                    <li>Amsterdam</li>
+            <li class="sub-menu-parent" tab-index="0">
+                <a href="#">Cities</a>
+                <ul class="sub-menu">
+                    <li><a href="#">Seattle</a></li>
+                    <li><a href="#">Portland</a></li>
+                    <li><a href="#">Minneapolis</a></li>
+                    <li><a href="#">Asheville</a></li>
+                    <li><a href="#">Amsterdam</a></li>
                 </ul>
             </li>
         </ul>
