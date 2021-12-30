@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Menu</title>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="bg-gray-900 sm:flex sm:justify-between sm:px-4 sm:py-3">
+        <div class="flex justify-between items-center px-4 py-3 sm:p-0">
+        <div>
+            <img class="h-10" src="download (1).png" alt="Shopify Logo">
+        </div>
+        <div class="sm:hidden">
+            <button id="hamburger" type="button" class="block text-gray-500 focus:text-white focus:outline-none hover:text-white">
+                <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
+                    <path id="x-icon" class="hidden" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
+                    <path id="ham-icon" fill-rule="evenodd"
+                        d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z" />
+                </svg>
+            </button>
+        </div>
+    </div>
+        <div id="menu" class="px-2 pt-2 pb-4 hidden sm:block sm:flex sm:items-center">
+            <a class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800" href="#">Shop our stores</a>
+            <a class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-3" href="#">Shopify Plus</a>
+            <a class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 sm:mt-0 sm:ml-3" href="#">Dev</a>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+
+</html>
